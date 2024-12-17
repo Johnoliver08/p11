@@ -5,7 +5,6 @@ import NavBar from '../components/Navbar';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import { Modal, Button, Row, Col, Form as BootstrapForm } from 'react-bootstrap'; 
-import '../stylesheets/Dashboard.css';
 import { API_ENPOINT } from '../Api';
 
 function Dashboard() {
