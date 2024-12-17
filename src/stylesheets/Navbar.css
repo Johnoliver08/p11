@@ -1,0 +1,21 @@
+.navbar-icon {
+    margin-left: 20px;
+    color: #1d9bf0;
+    transition: color 0.3s ease;
+}
+
+.navbar-icon:hover {
+    color: #005fa3; /* Darker blue on hover */
+}
+
+.navbar-search-container input {
+    font-size: 14px;
+    width: 200px;
+    background-color: transparent;
+    color: #333;
+}
+
+.navbar-search-container input:focus {
+    outline: none;
+    border: 1px solid #1d9bf0; /* Blue border on focus */
+}
